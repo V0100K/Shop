@@ -1,4 +1,4 @@
-body {
+ body {
     background: var(--bg);
     font-size: 16px;
     line-height: 16px;
@@ -81,7 +81,7 @@ li {
 }
 
 section {
-    background: var(--dark);
+    background: #2b2b2d;
     border-radius: 6px;
 }
 

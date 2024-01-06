@@ -7,7 +7,7 @@ import styles from "../../styles/Header.module.css";
 import { ROUTES } from "../../utils/routes";
 
 import LOGO from "../../img/LOGO 1.svg";
-import AVATAR from "../../img/AVATAR.png";
+import AVATAR from "../../img/icons8-user-64.png";
 
 import { toggleForm } from "../../features/user/userSlice";
 import { useGetProductsQuery } from "../../features/api/apiSlice";
@@ -65,7 +65,7 @@ const Header = () => {
                         <input
                             type="search"
                             name="search"
-                            placeholder="Search for anyting..."
+                            placeholder="Search for anything..."
                             autoComplete="off"
                             onChange={handleSearch}
                             value={searchValue}
